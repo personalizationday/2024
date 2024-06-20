@@ -104,12 +104,12 @@ sections:
     <td class="tg-0pky">Panel discussion</td>
   </tr>
   <tr>
-    <td class="tg-0lax">15:00-15:30</td>
-    <td class="tg-0lax">Closing / feedback</td>
+    <td class="tg-0pky">15:00-15:30</td>
+    <td class="tg-0pky">Closing / feedback</td>
   </tr>
   <tr>
-    <td class="tg-0lax">15:30-16:00</td>
-    <td class="tg-0lax">Goodbye coffee</td>
+    <td class="tg-0pky">15:30-16:00</td>
+    <td class="tg-0pky">Goodbye coffee</td>
   </tr>
 </tbody></table>
 ' 
