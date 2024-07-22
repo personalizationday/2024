@@ -94,13 +94,12 @@ sections:
     content:
       content:
       items:
-        - title: Call for posters
-          text: "<p>We invite all researchers and practitioners in the Nordics to submit their latest work on  personalisation and recommender systems to the 2nd Nordic Personalisation workshop in Gothenburg (September 16-17) in the form of a poster. Posters can focus on recent research results (including significant work-in-progress), applications and use cases of personalization and recommender systems, and directions of future research.<br><br></p>
+        - title: Call for contributions
+          text: "<p>We invite all researchers and practitioners in the Nordics (and elsewhere) to submit their latest work on personalisation and recommender systems to the 2nd Nordic Personalisation Workshop in Gothenburg (September 16-17) as a talk or a poster. Talks and posters can focus on recent research results (including significant work-in-progress), applications and use cases of personalization and recommender systems, and directions of future research.<br><br></p>
 
-            To present your poster at the workshop, researchers should submit an abstract. This poster abstract must be in plain text and no longer than 500 words, not including bibliographic references. Please submit your poster abstract <b><a href=https://forms.gle/RYhM2Lp37CTFujHr5>here</a></b>. Upon acceptance you will be asked to submit the PDF of your poster so we can archive it on the workshop website.<br><br>
+          <p>To present your work at the workshop, submit an abstract of your work and select what type of presentation you prefer. The abstract must be in plain text and no longer than 500 words, not including bibliographic references. Please submit your abstract</p>
 
-            <p>The poster session will be in the afternoon of September 16. The format will be A0 in portrait format. At least one author of each accepted poster is required to register for and attend the workshop. </p>
-
+            Talks will be allotted 10 minutes of presentation time during the workshop, while posters will be given a one-minute slot in a poster madness session and presented in a poster session. Please submit your contribution abstract <b><a href=https://forms.gle/RYhM2Lp37CTFujHr5>here</a></b>.<br><br>
           "
           button:
             text: Submit
