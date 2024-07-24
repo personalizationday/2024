@@ -33,7 +33,7 @@ sections:
   </tr>
   <tr>
     <td class="tg-0pky">13:45-14:30</td>
-    <td class="tg-0pky"><a href="/keynote">Keynote: AI needs ethics, but we need to change the game. Peter Knees</a></td>
+    <td class="tg-0pky"><a href="/2024/keynote">Keynote: AI needs ethics, but we need to change the game. Peter Knees</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">14:30-14:15</td>
