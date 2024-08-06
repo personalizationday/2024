@@ -33,7 +33,7 @@ sections:
   </tr>
   <tr>
     <td class="tg-0pky">13:45-14:30</td>
-    <td class="tg-0pky"><a href="/keynote">Keynote: AI needs ethics, but we need to change the game. Peter Knees</a></td>
+    <td class="tg-0pky"><a href="/keynote"><u><b>Keynote:</b> AI needs ethics, but we need to change the game. <br><b>Speaker:</b> Peter Knees, TU Wien</a></u></td>
   </tr>
   <tr>
     <td class="tg-0pky">14:30-14:15</td>
