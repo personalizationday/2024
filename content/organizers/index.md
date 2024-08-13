@@ -38,7 +38,7 @@ sections:
 
               <div style="text-align: center;">
                 <img src="johannes.jpg" alt="Johannes Kruse" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;">
-                <p><strong>Johannes Kruse</strong><br>Ekstra Bladet</p>
+                <p><strong>Johannes Kruse</strong><br>JP/Politikens Hus</p>
               </div>
             </div>
           </section>'
