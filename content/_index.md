@@ -40,13 +40,13 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "100+"
+        - statistic: "R&D"
           description: |
             participants
-        - statistic: "Nordics"
+        - statistic: "Nordic"
           description: |
-            top nordic researchers  
-             and practitioners
+            perspective on  
+             personalization
         - statistic: "Two days"
           description: |
             of talks, discussions  
