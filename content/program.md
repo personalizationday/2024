@@ -27,6 +27,14 @@ sections:
     <th class="tg-0pky">Title</th>
   </tr></thead>
 <tbody>
+<tr>
+    <td class="tg-0pky">11:00-12:00</td>
+    <td class="tg-0pky">Registration</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">12:00-13:00</td>
+    <td class="tg-0pky">Lunch</td>
+  </tr>
   <tr>
     <td class="tg-0pky">13:00-13:45</td>
     <td class="tg-0pky">Opening and introduction</td>
@@ -36,15 +44,20 @@ sections:
     <td class="tg-0pky"><a href="/2024/keynote"><u><b>Keynote:</b> AI needs ethics, but we need to change the game. <br><b>Speaker:</b> Peter Knees, TU Wien</a></u></td>
   </tr>
   <tr>
-    <td class="tg-0pky">14:30-14:15</td>
-    <td class="tg-0pky">Presentations, session 1</td>
+    <td class="tg-0pky">14:30-14:55</td>
+    <td class="tg-0pky">Christoph Trattner - Responsible Media Recommendations? Yes, but to whom and how?
+    </tr>
+  <tr>
+    <td class="tg-0pky">14:55-15:15</td>
+    <td class="tg-0pky">Jia-Hua Jeng - Multi-Modal Affective Reframing of a News Service with Large Language Models
+</td>
   </tr>
   <tr>
     <td class="tg-0pky">15:15-15:45</td>
     <td class="tg-0pky">Coffee break</td>
   </tr>
   <tr>
-    <td class="tg-0pky">15:55-16:00</td>
+    <td class="tg-0pky">15:45-16:00</td>
     <td class="tg-0pky">Poster madness</td>
   </tr>
   <tr>

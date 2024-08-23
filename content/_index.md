@@ -113,7 +113,7 @@ sections:
     id: venue
     content:
       title: Venue
-      text: 'The workshop will be held at the Wallberg Conference Center in Gothenburg  
+      text: 'The workshop will be held at the Wallberg Conference Center in Gothenburg. **Participation is free of charge. Lunch, snacks, and coffee are included on both days. A light dinner is included on the first day.** 
             <div style="display: flex; justify-content: center;">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1673.2712752315367!2d11.958097000722194!3d57.68782722705151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff313c630b7af%3A0x861010a67293672b!2sKonferenscentrum%20Wallenberg!5e0!3m2!1ssv!2sse!4v1718142321909!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>'
