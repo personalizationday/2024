@@ -118,8 +118,15 @@ sections:
   </tr>
   <tr>
     <td class="tg-0pky">11:40-12:00</td>
-    <td class="tg-0pky">-</td>
+    <td class="tg-0pky">Mehdi Elahi - Recommender Systems and the Challenge of Popularity Bias: An Overview
+</td>
   </tr>
+<tr>
+    <td class="tg-0pky">12:00-12:30</td>
+    <td class="tg-0pky">Presentations
+</td>
+  </tr>
+
   <tr>
     <td class="tg-0pky">12:30-13:30</td>
     <td class="tg-0pky">Lunch</td>
