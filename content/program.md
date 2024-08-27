@@ -40,12 +40,12 @@ sections:
     <td class="tg-0pky">Opening and introduction</td>
   </tr>
   <tr>
-    <td class="tg-0pky">13:45-14:30</td>
+    <td class="tg-0pky">13:45-14:35</td>
     <td class="tg-0pky"><a href="/2024/keynote"><u><b>Keynote:</b> AI needs ethics, but we need to change the game. <br><b>Speaker:</b> Peter Knees, TU Wien</a></u></td>
   </tr>
   <tr>
-    <td class="tg-0pky">14:30-14:55</td>
-    <td class="tg-0pky">Christoph Trattner - Responsible Media Recommendations? Yes, but to whom and how?
+    <td class="tg-0pky">14:35-14:55</td>
+    <td class="tg-0pky">Toine Bogers - FairMatch: A Multi-stakeholder Approach to Responsible Algorithmic Hiring 
     </tr>
   <tr>
     <td class="tg-0pky">14:55-15:15</td>
@@ -97,16 +97,28 @@ sections:
     <td class="tg-0pky">Keynote 2</td>
   </tr>
   <tr>
-    <td class="tg-0pky">09:45-10:30</td>
-    <td class="tg-0pky">Presentations, session 2</td>
+    <td class="tg-0pky">09:50-10:10</td>
+    <td class="tg-0pky">Lovisa Annerwall - Recommender systems and firm performance: A systematic review of the past to prepare for future developments</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">10:10-10:30</td>
+    <td class="tg-0pky">Alain Starke - A Primer on Normative Design and Thinking in Recommender Systems: A Brief Research Agenda for the Food Domain</td>
   </tr>
   <tr>
     <td class="tg-0pky">10:30-11:00</td>
     <td class="tg-0pky">Coffee break</td>
   </tr>
   <tr>
-    <td class="tg-0pky">11:00-12:30</td>
-    <td class="tg-0pky">Presentations, session 3</td>
+    <td class="tg-0pky">11:00-11:20</td>
+    <td class="tg-0pky">Dietmar Jannach - TBD</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">11:20-11:40</td>
+    <td class="tg-0pky">Alan Said - The Carbon Footprint of Recommender Systems</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">11:40-12:00</td>
+    <td class="tg-0pky">-</td>
   </tr>
   <tr>
     <td class="tg-0pky">12:30-13:30</td>
