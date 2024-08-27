@@ -110,7 +110,8 @@ sections:
   </tr>
   <tr>
     <td class="tg-0pky">11:00-11:20</td>
-    <td class="tg-0pky">Dietmar Jannach - TBD</td>
+    <td class="tg-0pky">Dietmar Jannach - Understanding longitudinal effects of recommender systems
+</td>
   </tr>
   <tr>
     <td class="tg-0pky">11:20-11:40</td>
