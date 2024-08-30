@@ -29,28 +29,31 @@ sections:
 <tbody>
 <tr>
     <td class="tg-0pky">11:00-12:00</td>
-    <td class="tg-0pky">Registration</td>
+    <td class="tg-0pky">Registration desk opens</td>
   </tr>
   <tr>
     <td class="tg-0pky">12:00-13:00</td>
     <td class="tg-0pky">Lunch</td>
   </tr>
   <tr>
-    <td class="tg-0pky">13:00-13:45</td>
+    <td class="tg-0pky">13:00-13:15</td>
     <td class="tg-0pky">Opening and introduction</td>
   </tr>
   <tr>
-    <td class="tg-0pky">13:45-14:35</td>
+    <td class="tg-0pky">13:15-14:05</td>
     <td class="tg-0pky"><a href="/2024/keynote-knees"><u><b>Keynote:</b> AI needs ethics, but we need to change the game. <br><b>Speaker:</b> Peter Knees, TU Wien</a></u></td>
   </tr>
   <tr>
-    <td class="tg-0pky">14:35-14:55</td>
+    <td class="tg-0pky">14:05-14:25</td>
     <td class="tg-0pky">Toine Bogers - FairMatch: A Multi-stakeholder Approach to Responsible Algorithmic Hiring 
     </tr>
   <tr>
+    <td class="tg-0pky">14:25-14:55</td>
+    <td class="tg-0pky">Jia-Hua Jeng - Multi-Modal Affective Reframing of a News Service with Large Language Models</td>
+  </tr>
+  <tr>
     <td class="tg-0pky">14:55-15:15</td>
-    <td class="tg-0pky">Jia-Hua Jeng - Multi-Modal Affective Reframing of a News Service with Large Language Models
-</td>
+    <td class="tg-0pky">Benjamin Kille - Large Language Models and their Potential for Personalization</td>
   </tr>
   <tr>
     <td class="tg-0pky">15:15-15:45</td>
