@@ -41,7 +41,7 @@ sections:
   </tr>
   <tr>
     <td class="tg-0pky">13:45-14:35</td>
-    <td class="tg-0pky"><a href="/2024/keynote"><u><b>Keynote:</b> AI needs ethics, but we need to change the game. <br><b>Speaker:</b> Peter Knees, TU Wien</a></u></td>
+    <td class="tg-0pky"><a href="/2024/keynote-knees"><u><b>Keynote:</b> AI needs ethics, but we need to change the game. <br><b>Speaker:</b> Peter Knees, TU Wien</a></u></td>
   </tr>
   <tr>
     <td class="tg-0pky">14:35-14:55</td>
@@ -94,7 +94,7 @@ sections:
   </tr>
   <tr>
     <td class="tg-0pky">09:00-09:45</td>
-    <td class="tg-0pky">Keynote 2</td>
+    <td class="tg-0pky"><a href="/2024/keynote-tegner"><u><b>Keynote:</b> TBD. <br><b>Speaker:</b> Martin Tegner, IKEA</a></u></a></td>
   </tr>
   <tr>
     <td class="tg-0pky">09:50-10:10</td>
