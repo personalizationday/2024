@@ -68,62 +68,54 @@
   margin: 10px 0;
 }
 
-/* General table styling for light mode */
-.tg {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
+
+/* Container for the schedule */
+.program-schedule {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
 }
 
-.tg td, .tg th {
-  border: 1px solid black;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  padding: 10px 5px;
-  word-break: normal;
-  background-color: #ffffff; /* Light mode background */
-  color: #000000; /* Light mode text */
+/* Styling for each row */
+.program-row {
+  display: contents; /* Allows grid children to fill the grid cells */
 }
 
-/* Even row background color for light mode */
-.tg tr:nth-child(even) {
-  background-color: #f2f2f2;
+/* Time column */
+.program-time {
+  font-weight: bold;
+  padding: 0.5rem;
+  background-color: #f9f9f9; /* Light background */
+  color: #333;
+  border: 1px solid #ddd;
 }
 
+/* Title column */
+.program-title {
+  padding: 0.5rem;
+  background-color: #ffffff; /* Light background */
+  color: #555;
+  border: 1px solid #ddd;
+}
 
 /* Dark mode styles */
-
-@mediaaa (prefers-color-scheme: dark) {
-  .tg td, .tg th {
-    background-color: #2c2c2c; /* Darker background for dark mode */
-    color: #e0e0e0; /* Light text color for dark mode */
-    border-color: #555555; /* Darker border in dark mode */
-  }
-
-  .tg tr:nth-child(even) {
-    background-color: #3a3a3a; /* Slightly different color for even rows */
-  }
-
-  .tg tr:nth-child(odd) {
-    background-color: #2c2c2c; /* Matching color for odd rows */
-  }
+.dark-mode .program-time, .dark-mode .program-title {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+  border-color: #555;
 }
 
-/* Explicitly define light mode (optional) */
-@media (prefers-color-scheme: light) {
-  .tg td, .tg th {
-    background-color: #ffffff; /* Light background */
-    color: #000000; /* Dark text */
-  }
-
-  .tg tr:nth-child(even) {
-    background-color: #f2f2f2; /* Light gray for even rows */
-  }
-
-  .tg tr:nth-child(odd) {
-    background-color: #ffffff; /* White for odd rows */
-  }
+/* Optional: Styling for header row */
+.program-row.header .program-time,
+.program-row.header .program-title {
+  font-weight: bold;
+  background-color: #e5e5e5;
 }
 
+/* Dark mode header row */
+.dark-mode .program-row.header .program-time,
+.dark-mode .program-row.header .program-title {
+  background-color: #3a3a3a;
+}
 
 </style>

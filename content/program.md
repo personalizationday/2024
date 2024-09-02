@@ -15,73 +15,50 @@ sections:
       <p class="text-gray-500 sm:text-xl dark:text-gray-400 text-center"><b>Monday</b><br></p>
       <br>
 
-      <table class="tg"><thead>
-        <tr>
-          <th class="tg-0pky">Time</th>
-          <th class="tg-0pky">Title</th>
-        </tr>
-      </thead>
-      <tbody>
+      <div class="program-schedule">
+        <div class="program-row header">
+          <div class="program-time">Time</div>
+          <div class="program-title">Title</div>
+        </div>
+
         {{< program-row time="11:00-12:00" content="Registration desk opens" modalId="deskOpens">}}
         {{< program-row time="12:00-13:00" content="Lunch" modalId="lunch" >}}
         {{< program-row time="13:00-13:15" content="Opening and introduction" modalId="introduction" >}}
         {{< program-row time="13:15-14:05" content="Peter Knees - AI needs ethics, but we need to change the game." modalId="bioPeterKnees" keynote="true" >}}
-        {{< program-row time="14:05-14:25" content="Toine Bogers - FairMatch: A Multi-stakeholder Approach to Responsible Algorithmic Hiring " modalId="bogers" >}}
-
+        {{< program-row time="14:05-14:25" content="Toine Bogers - FairMatch: A Multi-stakeholder Approach to Responsible Algorithmic Hiring" modalId="bogers" >}}
         {{< program-row time="14:25-14:45" content="Jia-Hua Jeng - Multi-Modal Affective Reframing of a News Service with Large Language Models" modalId="jeng" >}}
-
         {{< program-row time="14:45-15:05" content="Benjamin Kille - Large Language Models and their Potential for Personalization" modalId="kille" >}}
-
         {{< program-row time="15:15-15:45" content="Coffee break" >}}
-
         {{< program-row time="15:45-16:00" content="Poster Madness" >}}
         {{< program-row time="16:00-17:00" content="Poster Session" >}}
         {{< program-row time="17:00-19:00" content="Reception" modalId="reception" >}}
+      </div>
 
-      </tbody>
-      </table>
       <br><br>
 
       <p class="text-gray-500 sm:text-xl dark:text-gray-400 text-center"><b>Tuesday</b><br></p>
       <br>
 
-      <table class="tg"><thead>
-        <tr>
-          <th class="tg-0pky">Time</th>
-          <th class="tg-0pky">Title</th>
-        </tr>
-      </thead>
-      <tbody>
+      <div class="program-schedule">
+        <div class="program-row header">
+          <div class="program-time">Time</div>
+          <div class="program-title">Title</div>
+        </div>
 
         {{< program-row time="09:00-09:10" content="Welcome" >}} 
-        
         {{< program-row time="09:10-09:30" content="Dietmar Jannach - Understanding longitudinal effects of recommender systems." modalId="jannach" >}}
-
         {{< program-row time="09:30-09:50" content="Alan Said - The Carbon Footprint of Recommender Systems." modalId="said" >}}
-
         {{< program-row time="09:50-10:10" content="Lovisa Annerwall - Recommender systems and firm performance: A systematic review of the past to prepare for future developments" modalId="annerwall" >}}
-
         {{< program-row time="10:10-10:30" content="Alain Starke - A Primer on Normative Design and Thinking in Recommender Systems: A Brief Research Agenda for the Food Domain." modalId="starke" >}}
-
-
         {{< program-row time="10:30-11:00" content="Coffee break" >}}
-
         {{< program-row time="11:00-11:50" content="Martin Tegner - Keynote: TBD." modalId="bioMartinTegner" keynote="true" >}}
- 
         {{< program-row time="11:50-12:10" content="Mehdi Elahi - Recommender Systems and the Challenge of Popularity Bias: An Overview." modalId="elahi" >}}
-
         {{< program-row time="12:10-12:30" content="--"  >}}
-
         {{< program-row time="12:30-13:30" content="Lunch" modalId="lunch" >}}
-
         {{< program-row time="13:30-15:00" content="Panel" modalId="panel" >}}
-
         {{< program-row time="15:00-15:30" content="Closing"  >}}
-
         {{< program-row time="15:30-16:00" content="Coffee break and good bye" >}}
-
-      </tbody>
-      </table>
+      </div>
       <br><br>
 
       {{< modal id="deskOpens" content="The registration desk opens. Attendees are welcome to arrive from 11:00. Lunch is served at 12:00. The program starts at 13:00" >}}
@@ -105,21 +82,16 @@ sections:
 
       {{< modal id="starke" title="Alain Starke" image="../starke.jpg" abstract="Most recommender systems are designed to optimize for user preferences based on utilitarian criteria. Clicks and positive ratings reinforce content, often without further adaptation or intervention by a recommender designer. In this talk, I will present an alternative perspective for the design and evaluation of recommender system, using normative thinking. Building upon recent research, among others the workshop NORMalize at RecSys, I explain what normative thinking is, how it can be used in recommender systems, and how I propose to use it in the domain of healthy eating. This future work goes beyond the typical application of normative thinking, which is the news domain. The main aim of this talk is to introduce the concepts to a broader audience." bio="Associate Professor, University of Bergen (NO), Assistant Professor, University of Amsterdam (NL)" >}}
 
-      {{< modal id="jannach" title="Dietmar Jannach" image="../jannach.png" abstract="On most platforms, recommendations are continuously and repeatedly served to consumers. It is thus important to measure in a longitudinal way if the recommendations are leading to the desired long-term effects, both in terms of customer-related quality aspects as well as in terms of business metrics. In academic settings, longitudinal effects are however barely examined. Most of the published research is based on one-time measurements, and this applies both to offline evaluation settings and in user studies. To overcome current limitations, researchers need to explore alternative methodological approaches. In this talk, we will outline the importance and existing challenges of longitudinal recommender research and review the potential value of simulation approaches in this context." bio="Professor, University of Bergen (NO), Professor, Univerität Klagenfurt (AT)" >}}
+      {{< modal id="jannach" title="Dietmar Jannach" image="../jannach.png" abstract="On most platforms, recommendations are continuously and repeatedly served to consumers. It is thus important to measure in a longitudinal way if the recommendations are leading to the desired long-term effects, both in terms of customer-related quality aspects as well as in terms of business metrics. In academic settings, longitudinal effects are however barely examined. Most of the published research is based on one-time measurements, and this applies both to offline evaluation settings and in user studies. To overcome current limitations, researchers need to explore alternative methodological approaches. In this talk, we will outline the importance and existing challenges of longitudinal recommender research and review the potential value of simulation approaches in this context." bio="Professor, University of Bergen (NO), Professor, Universität Klagenfurt (AT)" >}}
 
       {{< modal id="said" title="Alan Said" image="../organizers/alan.jpg" abstract="As global warming intensifies, the environmental impact of research is increasingly scrutinized, yet the carbon footprint of recommender systems remains largely unexplored. This talk delves into our recent analysis presented at ACM RecSys 2024, where we measured the carbon emissions of 79 papers from RecSys 2013 and 2023. By reproducing typical experimental pipelines, we found that deep learning-based recommender systems emit, on average, 42 times more CO2 equivalents than traditional algorithms, contributing significantly to the field&#39;s overall environmental toll. We advocate for greater awareness and adoption of sustainable practices in recommender systems research to mitigate this impact." bio="Associate Professor, University of Gothenburg (SE)" >}}
 
       {{< modal id="elahi" title="Mehdi Elahi" image="../elahi.jpg" abstract="Recommender systems are tools that empower media applications to support users in discovering relevant and fresh content online, namely news articles and videos. However, these systems can introduce or intensify undesired effects, such as Popularity Bias, where popular content becomes disproportionately emphasized. This can lead to further issues, including the lack of diversity in the content presented to users.In this talk, I will address this challenge, providing an overview of the impact of different recommendation approaches across various domains and scenarios, and share our latest research findings on this challenge." bio="Associate Professor, University of Bergen (NO)" >}}
 
 
-      {{< modal id="bogers" title="Toine Bogers" image="../organizers/toine.png" abstract="Talk." bio="affil" >}}
-      {{< modal id="bogers" title="Toine Bogers" image="../organizers/toine.png" abstract="Talk." bio="affil" >}}
-      {{< modal id="bogers" title="Toine Bogers" image="../organizers/toine.png" abstract="Talk." bio="affil" >}}
-      {{< modal id="bogers" title="Toine Bogers" image="../organizers/toine.png" abstract="Talk." bio="affil" >}}
-      {{< modal id="bogers" title="Toine Bogers" image="../organizers/toine.png" abstract="Talk." bio="affil" >}}
-
-
       {{< modal id="bioMartinTegner" title="Martin Tegner" image="../tegner.jpg" abstract="TBD" bio="Martin Tegner is Principal Data Scientist at IKEA." >}}
+
 
       '
 ---
+

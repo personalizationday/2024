@@ -1,9 +1,9 @@
-<tr>
-  <td class="tg-0pky">{{ .Get "time" }}</td>
-  <td class="tg-0pky">
+<div class="program-row">
+  <div class="program-time">{{ .Get "time" }}</div>
+  <div class="program-title">
     {{ with .Get "keynote" }}
       <strong>Keynote:</strong>
     {{ end }}
     <a href="#{{ .Get "modalId" }}" data-toggle="modal">{{ .Get "content" }}</a>
-  </td>
-</tr>
+  </div>
+</div>
