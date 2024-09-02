@@ -1,0 +1,34 @@
+<script>
+  // Get all modals
+  var modals = document.getElementsByClassName('modal');
+
+  // Get all buttons that open the modals
+  var btns = document.querySelectorAll('[data-toggle="modal"]');
+
+  // Get all <span> elements that close the modals
+  var spans = document.getElementsByClassName('close');
+
+  // When the user clicks on a button, open the corresponding modal
+  Array.from(btns).forEach((btn, index) => {
+    btn.onclick = function() {
+      var modal = document.querySelector(btn.getAttribute("href"));
+      modal.style.display = "block";
+    };
+  });
+
+  // When the user clicks on <span> (x), close the modal
+  Array.from(spans).forEach((span, index) => {
+    span.onclick = function() {
+      var modal = span.closest(".modal");
+      modal.style.display = "none";
+    };
+  });
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+      event.target.style.display = "none";
+    }
+  }
+</script>
+

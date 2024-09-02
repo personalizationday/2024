@@ -1,0 +1,24 @@
+<div id="{{ .Get "id" }}" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      {{ with .Get "title" }}
+        <h2>{{ . }}</h2>
+      {{ end }}
+      <span class="close">&times;</span>
+    </div>
+    <div class="modal-body">
+      {{ with .Get "image" }}
+        <img src="{{ . }}" alt="{{ $.Get "title" }}">
+      {{ end }}
+      {{ with .Get "abstract" }}
+        <p><strong>Abstract:</strong> {{ . | safeHTML}}</p>
+      {{ end }}
+      {{ with .Get "bio" }}
+        <p><strong>Bio:</strong> {{ . }}</p>
+      {{ end }}
+      {{ with .Get "content" }}
+        <p> {{ . }}</p>
+      {{ end }}
+    </div>
+  </div>
+</div>
