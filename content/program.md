@@ -28,9 +28,11 @@ sections:
         {{< program-row time="14:05-14:25" content="Toine Bogers - FairMatch: A Multi-stakeholder Approach to Responsible Algorithmic Hiring" modalId="bogers" >}}
         {{< program-row time="14:25-14:45" content="Jia-Hua Jeng - Multi-Modal Affective Reframing of a News Service with Large Language Models" modalId="jeng" >}}
         {{< program-row time="14:45-15:05" content="Benjamin Kille - Large Language Models and their Potential for Personalization" modalId="kille" >}}
-        {{< program-row time="15:15-15:45" content="Coffee break" >}}
-        {{< program-row time="15:45-16:00" content="Poster Madness" >}}
-        {{< program-row time="16:00-17:00" content="Poster Session" >}}
+        {{< program-row time="15:05-15:20" content="Christoph Schmitz - Content recommendation in a News Setting" modalId="schmitz"  >}}
+        {{< program-row time="15:20-15:30" content="Poster Madness" modalId="madness" >}}
+        {{< program-row time="15:30-16:00" content="Coffee break" >}}
+        
+        {{< program-row time="16:15-17:00" content="Poster Session" >}}
         {{< program-row time="17:00-19:00" content="Reception" modalId="reception" >}}
       </div>
 
@@ -69,6 +71,7 @@ sections:
 
       {{< modal id="reception" content="Food and drinks" >}}
 
+      {{< modal id="madness" content="Quick presentations of all posters available during the poster session after the coffee break." >}}
 
       {{< modal id="bioPeterKnees" title="Peter Knees" image="../knees.webp" abstract="The recent hype of AI and its apparently unavoidable permeation of all areas of life has gone hand in hand with calls for establishing regulatory measures to enforce ethical use. Given the present and foreseen threats of unregulated use of AI, it is clear that guardrails, international agreements, and policies to protect the rights and interests of citizens are needed. However, the ongoing power shift away from publicly funded AI research towards industrial R&D could effectively result in self-regulation of industry rather than transparency of systems and accountability. Academic research not tied to commercial interests therefore needs to play a much stronger role in this process. In the talk, I will argue that academia for this reason also needs to define clear and stronger policies for research and industry cooperations and needs to invest considerable resources to keep their level of expertise and believably act in the public interest. Furthermore, universities need to take their mission seriously by properly valuing ethical research over amplifying the industry&#39;s agenda." bio="Peter Knees is Associate Professor at the Faculty of Informatics at TU Wien. He has been conducting research at the interface of artificial intelligence and music for two decades, including applications in the field of music recommendation algorithms. As UNESCO Chair for Digital Humanism, he deals with social challenges resulting from the digital transformation, in particular with issues relating to the responsible use of AI, the teaching of digital skills and a global perspective on these developments." >}}
 
@@ -87,6 +90,8 @@ sections:
       {{< modal id="said" title="Alan Said" image="../organizers/alan.jpg" abstract="As global warming intensifies, the environmental impact of research is increasingly scrutinized, yet the carbon footprint of recommender systems remains largely unexplored. This talk delves into our recent analysis presented at ACM RecSys 2024, where we measured the carbon emissions of 79 papers from RecSys 2013 and 2023. By reproducing typical experimental pipelines, we found that deep learning-based recommender systems emit, on average, 42 times more CO2 equivalents than traditional algorithms, contributing significantly to the field&#39;s overall environmental toll. We advocate for greater awareness and adoption of sustainable practices in recommender systems research to mitigate this impact." bio="Associate Professor, University of Gothenburg (SE)" >}}
 
       {{< modal id="elahi" title="Mehdi Elahi" image="../elahi.jpg" abstract="Recommender systems are tools that empower media applications to support users in discovering relevant and fresh content online, namely news articles and videos. However, these systems can introduce or intensify undesired effects, such as Popularity Bias, where popular content becomes disproportionately emphasized. This can lead to further issues, including the lack of diversity in the content presented to users.In this talk, I will address this challenge, providing an overview of the impact of different recommendation approaches across various domains and scenarios, and share our latest research findings on this challenge." bio="Associate Professor, University of Bergen (NO)" >}}
+
+      {{< modal id="schmitz" title="Christoph Schmitz" abstract="In Schibsted we use several ways of identifying what content we want to recommend to our users. Some are manually curated by Editors, some are picked by their overall performance, some are picked because you asked for it, while we also use some ML models for serving and supporting other use cases. I will give an insight to the complexity of real world problems when doing content recommendation out in the wild. How is this really doing something good for society, and do users like to hear that they are getting personal recommendations? " bio="Product Manager, Schibsted (NO)" >}}
 
 
       {{< modal id="bioMartinTegner" title="Martin Tegner" image="../tegner.jpg" abstract="TBD" bio="Martin Tegner is Principal Data Scientist at IKEA." >}}
