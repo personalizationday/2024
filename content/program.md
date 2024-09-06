@@ -26,7 +26,7 @@ sections:
         {{< program-row time="13:00-13:15" content="Opening and introduction" modalId="introduction" >}}
         {{< program-row time="13:15-14:05" content="Peter Knees - AI needs ethics, but we need to change the game." modalId="bioPeterKnees" keynote="true" >}}
         {{< program-row time="14:05-14:25" content="Toine Bogers - FairMatch: A Multi-stakeholder Approach to Responsible Algorithmic Hiring" modalId="bogers" >}}
-        {{< program-row time="14:25-14:45" content="Jia-Hua Jeng - Multi-Modal Affective Reframing of a News Service with Large Language Models" modalId="jeng" >}}
+        {{< program-row time="14:25-14:45" content="Jia-Hua Jeng - Negativity Sells? Using an LLM to Affectively Reframe News Articles in a Recommender System" modalId="jeng" >}}
         {{< program-row time="14:45-15:05" content="Benjamin Kille - Large Language Models and their Potential for Personalization" modalId="kille" >}}
         {{< program-row time="15:05-15:20" content="Christoph Schmitz - Content recommendation in a News Setting" modalId="schmitz"  >}}
         {{< program-row time="15:20-15:30" content="Poster Madness" modalId="madness" >}}
