@@ -53,7 +53,7 @@ sections:
         {{< program-row time="09:50-10:10" content="Lovisa Annerwall - Recommender systems and firm performance: A systematic review of the past to prepare for future developments" modalId="annerwall" >}}
         {{< program-row time="10:10-10:30" content="Alain Starke - A Primer on Normative Design and Thinking in Recommender Systems: A Brief Research Agenda for the Food Domain." modalId="starke" >}}
         {{< program-row time="10:30-11:00" content="Coffee break" >}}
-        {{< program-row time="11:00-11:50" content="Martin Tegner - Keynote: TBD." modalId="bioMartinTegner" keynote="true" >}}
+        {{< program-row time="11:00-11:50" content="Martin Tegner - Keynote: Brining a life-at-home experience to you." modalId="bioMartinTegner" keynote="true" >}}
         {{< program-row time="11:50-12:10" content="Mehdi Elahi - Recommender Systems and the Challenge of Popularity Bias: An Overview." modalId="elahi" >}}
         {{< program-row time="12:10-12:30" content="Marko Tkalcic - Optimizing Recommender Systems for Political Depolarization" modalId="tkalcic"  >}}
         {{< program-row time="12:30-13:30" content="Lunch" modalId="lunch" >}}
@@ -95,7 +95,7 @@ sections:
 
       {{< modal id="tkalcic" title="Marko Tkalcic" image="../tkalcic.jpg" abstract="In this work we propose a news recommender system to reduce political polarization by presenting users with a diverse range of viewpoints, fostering open-mindedness and civil discourse. Political polarization, marked by hostility toward opposing groups, deepens societal divides. The system will address this by filtering out fake news, polarizing content, and extremist views, while prioritizing credible, fact-checked articles. Drawing inspiration from Jonathan Stray’s approach, the system will combine content moderation, personalization algorithms, and user interface design to effectively tailor news recommendations based on users&#39; political orientations and their Overton window—the range of views they find acceptable.<br><br>The system will be evaluated through a controlled experiment, measuring changes in users&#39; polarization and attitudes before and after interacting with the recommended content. This experiment may be conducted in a single session or over several weeks, depending on the study design. Key focus areas include accurately assessing political alignment, optimizing content recommendations, and developing strategies for news article labeling and ranking. Challenges include handling controversial topics, excluding fake news, and addressing ethical concerns around persuasion. The system will aim to contribute to societal well-being by promoting peaceful, inclusive discourse, aligning with United Nations Social Development Goals, and enhancing societal connectedness and equity." bio="Associate Professor, University of Primorska (SI)" >}}
 
-      {{< modal id="bioMartinTegner" title="Martin Tegner" image="../tegner.jpg" abstract="TBD" bio="Martin Tegner is Principal Data Scientist at IKEA." >}}
+      {{< modal id="bioMartinTegner" title="Martin Tegner" image="../tegner.jpg" abstract=" I will give my perspective on how we shape online customer experiences with data, and how we merge this with 80 years of interior-design expertise and home-furnishing knowledge" bio="Martin Tegner is Principal Data Scientist at IKEA." >}}
 
 
       '
