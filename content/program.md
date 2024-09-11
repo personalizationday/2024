@@ -52,7 +52,7 @@ sections:
         {{< program-row time="09:50-10:10" content="Lovisa Annerwall - Recommender systems and firm performance: A systematic review of the past to prepare for future developments" modalId="annerwall" >}}
         {{< program-row time="10:10-10:30" content="Alain Starke - A Primer on Normative Design and Thinking in Recommender Systems: A Brief Research Agenda for the Food Domain." modalId="starke" >}}
         {{< program-row time="10:30-11:00" content="Coffee break" >}}
-        {{< program-row time="11:00-11:50" content="Martin Tegner - Keynote: Brining a life-at-home experience to you." modalId="bioMartinTegner" keynote="true" >}}
+        {{< program-row time="11:00-11:50" content="Martin Tegner - Keynote: Bringing a life-at-home experience to you." modalId="bioMartinTegner" keynote="true" >}}
         {{< program-row time="11:50-12:10" content="Mehdi Elahi - Recommender Systems and the Challenge of Popularity Bias: An Overview." modalId="elahi" >}}
         {{< program-row time="12:10-12:30" content="Marko Tkalcic - Optimizing Recommender Systems for Political Depolarization" modalId="tkalcic"  >}}
         {{< program-row time="12:30-13:30" content="Lunch" modalId="lunch" >}}
