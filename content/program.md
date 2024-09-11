@@ -23,16 +23,15 @@ sections:
 
         {{< program-row time="11:00-12:00" content="Registration desk opens" modalId="deskOpens">}}
         {{< program-row time="12:00-13:00" content="Lunch" modalId="lunch" >}}
-        {{< program-row time="13:00-13:15" content="Opening and introduction" modalId="introduction" >}}
-        {{< program-row time="13:15-14:05" content="Peter Knees - AI needs ethics, but we need to change the game." modalId="bioPeterKnees" keynote="true" >}}
-        {{< program-row time="14:05-14:25" content="Toine Bogers - FairMatch: A Multi-stakeholder Approach to Responsible Algorithmic Hiring" modalId="bogers" >}}
-        {{< program-row time="14:25-14:45" content="Jia-Hua Jeng - Negativity Sells? Using an LLM to Affectively Reframe News Articles in a Recommender System" modalId="jeng" >}}
-        {{< program-row time="14:45-15:05" content="Benjamin Kille - Large Language Models and their Potential for Personalization" modalId="kille" >}}
-        {{< program-row time="15:05-15:20" content="Christoph Schmitz - Content recommendation in a News Setting" modalId="schmitz"  >}}
-        {{< program-row time="15:20-15:30" content="Poster Madness" modalId="madness" >}}
-        {{< program-row time="15:30-16:00" content="Coffee break" >}}
-        
-        {{< program-row time="16:15-17:00" content="Poster Session" >}}
+        {{< program-row time="13:00-13:10" content="Opening and introduction" modalId="introduction" >}}
+        {{< program-row time="13:10-14:00" content="Peter Knees - AI needs ethics, but we need to change the game." modalId="bioPeterKnees" keynote="true" >}}
+        {{< program-row time="14:00-14:20" content="Toine Bogers - FairMatch: A Multi-stakeholder Approach to Responsible Algorithmic Hiring" modalId="bogers" >}}
+        {{< program-row time="14:20-14:40" content="Jia-Hua Jeng - Negativity Sells? Using an LLM to Affectively Reframe News Articles in a Recommender System" modalId="jeng" >}}
+        {{< program-row time="14:40-15:00" content="Benjamin Kille - Large Language Models and their Potential for Personalization" modalId="kille" >}}
+        {{< program-row time="15:00-15:20" content="Christoph Schmitz - Content recommendation in a News Setting" modalId="schmitz"  >}}
+        {{< program-row time="15:20-15:40" content="Bilal Mahmood - A Supervised Machine Learning Approach for Supporting Editorial Article Selection" modalId="mahmood"  >}}
+        {{< program-row time="15:40-15:45" content="Poster Madness" modalId="madness" >}}
+        {{< program-row time="15:45-17:00" content="Poster session and coffee break" >}}
         {{< program-row time="17:00-19:00" content="Reception" modalId="reception" >}}
       </div>
 
@@ -67,6 +66,8 @@ sections:
       
       {{< modal id="lunch" content="Lunch is served at restaurant Lyktan, at Walleberg Conference Center" >}}
 
+      {{< modal id="panel" title="Panel - Ethical and responsible recommendations in AI-driven media" content="Panelists:<br><ul><li>Peter Knees - TU Wien</li><li>Simen Eide - Schibsted</li><li>Lubos Steskal - TV2</li><li>Marko Tkalcic - University of Primorska</li></ul><br>Panel moderator: Alain Starke - University of Amsterdam and University of Bergen" >}}
+
       {{< modal id="introduction" content="Introduction to the Nordic Personalization Days" >}}
 
       {{< modal id="reception" content="Food and drinks" >}}
@@ -92,6 +93,8 @@ sections:
       {{< modal id="elahi" title="Mehdi Elahi" image="../elahi.jpg" abstract="Recommender systems are tools that empower media applications to support users in discovering relevant and fresh content online, namely news articles and videos. However, these systems can introduce or intensify undesired effects, such as Popularity Bias, where popular content becomes disproportionately emphasized. This can lead to further issues, including the lack of diversity in the content presented to users.In this talk, I will address this challenge, providing an overview of the impact of different recommendation approaches across various domains and scenarios, and share our latest research findings on this challenge." bio="Associate Professor, University of Bergen (NO)" >}}
 
       {{< modal id="schmitz" title="Christoph Schmitz" abstract="In Schibsted we use several ways of identifying what content we want to recommend to our users. Some are manually curated by Editors, some are picked by their overall performance, some are picked because you asked for it, while we also use some ML models for serving and supporting other use cases. I will give an insight to the complexity of real world problems when doing content recommendation out in the wild. How is this really doing something good for society, and do users like to hear that they are getting personal recommendations? " bio="Product Manager, Schibsted (NO)" >}}
+
+      {{< modal id="mahmood" title="Bilal Mahmood" abstract="Editors on news platforms play a crucial role in various editorial tasks and responsibilities. One of the key tasks carried out by editors regularly is reviewing the latest news articles and manually selecting a set of related articles that could be interesting for readers to explore further. While this task is important, it can pose challenges, as it may take a substantial amount of time to search the database of published articles, check their content, and hand-select the most relevant ones. <br>We address this challenge by proposing an automatic approach that can support editors in this process and assist them in selecting related articles for a given target article. The approach is based on Supervised Machine Learning (SML) and leverages state-of-the-art text embedding models to create representations of news articles. A machine learning classifier is built using these embeddings and is utilized to predict scores for available articles based on their relatedness to a target article. The top articles are then recommended to the editor for consideration in the list of the most related articles. <br> We evaluated our approach using a real-world dataset received from one of the largest editor-managed commercial media houses in Norway, i.e., TV 2. The dataset includes editors’ feedback on how news articles are related and has been used as ground truth to assess the effectiveness of our proposed approach. The results are promising, reflecting the effectiveness of the proposed approach in handling this task in the editorial process in the news domain." bio="PhD Candidate, University of Bergen (NO)" >}}
 
       {{< modal id="tkalcic" title="Marko Tkalcic" image="../tkalcic.jpg" abstract="In this work we propose a news recommender system to reduce political polarization by presenting users with a diverse range of viewpoints, fostering open-mindedness and civil discourse. Political polarization, marked by hostility toward opposing groups, deepens societal divides. The system will address this by filtering out fake news, polarizing content, and extremist views, while prioritizing credible, fact-checked articles. Drawing inspiration from Jonathan Stray’s approach, the system will combine content moderation, personalization algorithms, and user interface design to effectively tailor news recommendations based on users&#39; political orientations and their Overton window—the range of views they find acceptable.<br><br>The system will be evaluated through a controlled experiment, measuring changes in users&#39; polarization and attitudes before and after interacting with the recommended content. This experiment may be conducted in a single session or over several weeks, depending on the study design. Key focus areas include accurately assessing political alignment, optimizing content recommendations, and developing strategies for news article labeling and ranking. Challenges include handling controversial topics, excluding fake news, and addressing ethical concerns around persuasion. The system will aim to contribute to societal well-being by promoting peaceful, inclusive discourse, aligning with United Nations Social Development Goals, and enhancing societal connectedness and equity." bio="Associate Professor, University of Primorska (SI)" >}}
 

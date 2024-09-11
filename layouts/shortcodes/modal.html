@@ -17,7 +17,7 @@
         <p><strong>Bio:</strong> {{ . }}</p>
       {{ end }}
       {{ with .Get "content" }}
-        <p> {{ . }}</p>
+        <p> {{ . | safeHTML}}</p>
       {{ end }}
     </div>
   </div>
