@@ -31,7 +31,7 @@ sections:
         {{< program-row time="15:00-15:20" content="Christoph Schmitz - Content recommendation in a News Setting" modalId="schmitz"  >}}
         {{< program-row time="15:20-15:40" content="Bilal Mahmood - A Supervised Machine Learning Approach for Supporting Editorial Article Selection" modalId="mahmood"  >}}
         {{< program-row time="15:40-15:45" content="Poster Madness" modalId="madness" >}}
-        {{< program-row time="15:45-17:00" content="Poster session and coffee break" >}}
+        {{< program-row time="15:45-17:00" content="Poster session and coffee break" modalId="posters" >}}
         {{< program-row time="17:00-19:00" content="Reception" modalId="reception" >}}
       </div>
 
@@ -72,7 +72,9 @@ sections:
 
       {{< modal id="reception" content="Food and drinks" >}}
 
-      {{< modal id="madness" content="Quick presentations of all posters available during the poster session after the coffee break." >}}
+      {{< modal id="madness" title="Poser Madness" content="Quick presentations of all posters available during the poster session after the coffee break." >}}
+
+      {{< modal id="posters" title="Posters" content="<ul><li>Jia-Hua Jeng - MediaFutures <br><i>Negativity Sells? Using an LLM to Affectively Reframe News Articles in a Recommender System </i></li><br><li>Khadiga Seddik - MediaFutures<br><i>Investigating Personalized Headlines in News Recommendations: A ChatGPT Study </i></li><br><li>Elliot Fogelklou - BasedOn / University of Gothenburg<br><i></i></li><br><li>Maria Juhlin - IKEA<br><i>Inspiring Customers in an E-commerce Setting by Using Multi-objective Deep Q-learning</i></li><br><li>Veronica Kecki - University of Gothenburg<br><i>Understanding Fairness in Recommender Systems: A Healthcare Perspective</i></li></ul>" >}}
 
       {{< modal id="bioPeterKnees" title="Peter Knees" image="../knees.webp" abstract="The recent hype of AI and its apparently unavoidable permeation of all areas of life has gone hand in hand with calls for establishing regulatory measures to enforce ethical use. Given the present and foreseen threats of unregulated use of AI, it is clear that guardrails, international agreements, and policies to protect the rights and interests of citizens are needed. However, the ongoing power shift away from publicly funded AI research towards industrial R&D could effectively result in self-regulation of industry rather than transparency of systems and accountability. Academic research not tied to commercial interests therefore needs to play a much stronger role in this process. In the talk, I will argue that academia for this reason also needs to define clear and stronger policies for research and industry cooperations and needs to invest considerable resources to keep their level of expertise and believably act in the public interest. Furthermore, universities need to take their mission seriously by properly valuing ethical research over amplifying the industry&#39;s agenda." bio="Peter Knees is Associate Professor at the Faculty of Informatics at TU Wien. He has been conducting research at the interface of artificial intelligence and music for two decades, including applications in the field of music recommendation algorithms. As UNESCO Chair for Digital Humanism, he deals with social challenges resulting from the digital transformation, in particular with issues relating to the responsible use of AI, the teaching of digital skills and a global perspective on these developments." >}}
 
