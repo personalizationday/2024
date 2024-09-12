@@ -47,7 +47,7 @@ sections:
     id: sponsors
     content:
       title: Sponsors
-      text: 'The event is sponsored by University of Gothenburg, SFI Mediafutures, University of Bergen, Riksbankens Jubileumsfond'
+      text: 'The event is sponsored by University of Gothenburg, SFI Mediafutures, University of Bergen, Riksbankens Jubileumsfond, and Meltzer Fund'
   
 
       
