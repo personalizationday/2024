@@ -25,13 +25,12 @@ sections:
         {{< program-row time="12:00-13:00" content="Lunch" modalId="lunch" >}}
         {{< program-row time="13:00-13:10" content="Opening and introduction" modalId="introduction" >}}
         {{< program-row time="13:10-14:00" content="Peter Knees - AI needs ethics, but we need to change the game." modalId="bioPeterKnees" keynote="true" >}}
-        {{< program-row time="14:00-14:20" content="Toine Bogers - FairMatch: A Multi-stakeholder Approach to Responsible Algorithmic Hiring" modalId="bogers" >}}
-        {{< program-row time="14:20-14:40" content="Jia-Hua Jeng - Negativity Sells? Using an LLM to Affectively Reframe News Articles in a Recommender System" modalId="jeng" >}}
-        {{< program-row time="14:40-15:00" content="Benjamin Kille - Large Language Models and their Potential for Personalization" modalId="kille" >}}
-        {{< program-row time="15:00-15:20" content="Christoph Schmitz - Content recommendation in a News Setting" modalId="schmitz"  >}}
-        {{< program-row time="15:20-15:40" content="Bilal Mahmood - A Supervised Machine Learning Approach for Supporting Editorial Article Selection" modalId="mahmood"  >}}
-        {{< program-row time="15:40-15:45" content="Poster Madness" modalId="madness" >}}
-        {{< program-row time="15:45-17:00" content="Poster session and coffee break" modalId="posters" >}}
+        {{< program-row time="14:00-14:20" content="Jia-Hua Jeng - Negativity Sells? Using an LLM to Affectively Reframe News Articles in a Recommender System" modalId="jeng" >}}
+        {{< program-row time="14:20-14:40" content="Benjamin Kille - Large Language Models and their Potential for Personalization" modalId="kille" >}}
+        {{< program-row time="14:40-15:00" content="Christoph Schmitz - Content recommendation in a News Setting" modalId="schmitz"  >}}
+        {{< program-row time="15:00-15:20" content="Bilal Mahmood - A Supervised Machine Learning Approach for Supporting Editorial Article Selection" modalId="mahmood"  >}}
+        {{< program-row time="15:20-15:30" content="Poster Madness" modalId="madness" >}}
+        {{< program-row time="15:30-17:00" content="Poster session and coffee break" modalId="posters" >}}
         {{< program-row time="17:00-19:00" content="Reception" modalId="reception" >}}
       </div>
 
