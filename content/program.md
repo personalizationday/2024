@@ -65,7 +65,7 @@ sections:
       
       {{< modal id="lunch" content="Lunch is served at restaurant Lyktan, at Walleberg Conference Center" >}}
 
-      {{< modal id="panel" title="Panel - Ethical and responsible recommendations in AI-driven media" content="Panelists:<br><ul><li>Peter Knees - TU Wien</li><li>Simen Eide - Schibsted</li><li>Lubos Steskal - TV2</li><li>Marko Tkalcic - University of Primorska</li></ul><br>Panel moderator: Alain Starke - University of Amsterdam and University of Bergen" >}}
+      {{< modal id="panel" title="Panel - Ethical and responsible recommendations in AI-driven media" content="Panelists:<br><ul><li>Peter Knees - TU Wien</li><li>Simen Buodd - Schibsted</li><li>Lubos Steskal - TV2</li><li>Marko Tkalcic - University of Primorska</li></ul><br>Panel moderator: Alain Starke - University of Amsterdam and University of Bergen" >}}
 
       {{< modal id="introduction" content="Introduction to the Nordic Personalization Days" >}}
 
